@@ -1,0 +1,15 @@
+{
+  "kind": "marinara.personal-extension",
+  "version": 1,
+  "config": {
+    "name": "Token Cost Receipt",
+    "version": "3.1.0",
+    "description": "Adds per-message token cost receipts with current model presets, USD/CNY to KRW exchange-rate estimates, createdAt-based RP date/time display, and historical DeepSeek V4 pricing, and custom price multipliers (e.g. 1.6x) for Marinara Engine 2.4–2.5.x.",
+    "runtime": "client",
+    "enabled": false,
+    "capabilities": [
+      "full_page_access"
+    ],
+    "jsPath": "extension.js"
+  }
+}
